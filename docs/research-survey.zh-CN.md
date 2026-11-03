@@ -71,7 +71,8 @@
 这是一条理解接口与证据边界的路线，不是性能排名：
 
 1. [TimeReasoner](https://arxiv.org/abs/2505.24511)：建立“把预测写成推理任务”能做什么、尚不能说明什么的起点。
-2. [CiK](https://proceedings.mlr.press/v267/williams25a.html)：理解为何某些预测必须使用文本，以及如何设计上下文对照。
-3. [KairosAgent](https://aclanthology.org/2026.emnlp-main.1343/)：观察语义推理怎样通过具体接口控制数值预测器。
-4. [MemCast](https://proceedings.mlr.press/v306/tao26a.html)：理解跨实例经验、轨迹选择与延迟结果反馈的区别。
-5. [COMMON-TSQA](https://arxiv.org/abs/2610.05686)：回到证据使用、事实正确性和解释忠实性，审视前面各路线的验证是否充分。
+2. [Time-R1](https://arxiv.org/abs/2506.10630)：从提示式慢思考推进到监督微调与强化学习，理解预测奖励设计，并检查中间推理是否影响数值输出。
+3. [CiK](https://proceedings.mlr.press/v267/williams25a.html)：理解为何某些预测必须使用文本，以及如何设计上下文对照。
+4. [KairosAgent](https://aclanthology.org/2026.emnlp-main.1343/)：观察语义推理怎样通过具体接口控制数值预测器。
+5. [MemCast](https://proceedings.mlr.press/v306/tao26a.html)：理解跨实例经验、轨迹选择与延迟结果反馈的区别。
+6. [COMMON-TSQA](https://arxiv.org/abs/2610.05686)：回到证据使用、事实正确性和解释忠实性，审视前面各路线的验证是否充分。
