@@ -1,0 +1,4556 @@
+[
+  {
+    "arxiv_id": "2505.24511",
+    "short_name": "TimeReasoner",
+    "section": "direct",
+    "summary": "Training-free prompting compares one-shot, decoupled, and rollout reasoning for numerical forecasts.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Prompting evidence; additional deliberation and sampling should be compared at matched inference cost.",
+    "code_url": "https://github.com/ustc-time-series/TimeReasoner",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "WSDM 2026",
+    "venue_status": "published",
+    "doi": "10.1145/3773966.3777931",
+    "aliases": [],
+    "title": "Can Slow-thinking LLMs Reason Over Time? Empirical Studies in Time Series Forecasting",
+    "authors": [
+      "Mingyue Cheng",
+      "Jiahao Wang",
+      "Daoyu Wang",
+      "Xiaoyu Tao",
+      "Qi Liu",
+      "Enhong Chen"
+    ],
+    "year": 2025,
+    "publication_date": "2025-05-30",
+    "publication_type": "preprint",
+    "arxiv_version": 4,
+    "version_date": "2025-12-21",
+    "paper_url": "https://arxiv.org/abs/2505.24511",
+    "version_url": "https://arxiv.org/abs/2505.24511v4",
+    "source_platforms": [
+      "arxiv",
+      "api.crossref.org",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2505.24511v4",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "api.crossref.org",
+          "source_url": "https://api.crossref.org/works/10.1145/3773966.3777931",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "doi": [
+        {
+          "platform": "api.crossref.org",
+          "source_url": "https://api.crossref.org/works/10.1145/3773966.3777931",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ustc-time-series/TimeReasoner",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.24511",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "cheng2025arxiv250524511"
+  },
+  {
+    "arxiv_id": "2506.10630",
+    "short_name": "Time-R1",
+    "section": "direct",
+    "summary": "Reasoning-trace SFT and forecasting-specific RL train an LLM to reason before generating a numeric sequence.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "A training-time No-Think control and inference-time shuffled/corrupted-rationale interventions support behavioral dependence; they do not prove every step is faithful.",
+    "code_url": "https://github.com/ustc-time-series/Time-R1",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "CIKM 2026",
+    "venue_status": "accepted",
+    "doi": "10.1145/3799682.3840737",
+    "aliases": [
+      "Time Series Forecasting as Reasoning: A Slow-Thinking Approach with Reinforced LLMs"
+    ],
+    "title": "Time Series Forecasting via Reasoning: A Slow-Thinking Approach with Reinforcement Fine-Tuned LLMs",
+    "authors": [
+      "Yitong Zhou",
+      "Yucong Luo",
+      "Mingyue Cheng",
+      "Qi Liu",
+      "Jiahao Wang",
+      "Daoyu Wang",
+      "Enhong Chen"
+    ],
+    "year": 2025,
+    "publication_date": "2025-06-12",
+    "publication_type": "preprint",
+    "arxiv_version": 4,
+    "version_date": "2026-08-24",
+    "paper_url": "https://arxiv.org/abs/2506.10630",
+    "version_url": "https://arxiv.org/abs/2506.10630v4",
+    "source_platforms": [
+      "arxiv",
+      "api.crossref.org",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2506.10630v4",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "api.crossref.org",
+          "source_url": "https://api.crossref.org/works/10.1145/3799682.3840737",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "doi": [
+        {
+          "platform": "api.crossref.org",
+          "source_url": "https://api.crossref.org/works/10.1145/3799682.3840737",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ustc-time-series/Time-R1",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.10630",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "zhou2025arxiv250610630"
+  },
+  {
+    "arxiv_id": "2608.01875",
+    "short_name": "ReasonCast (joint generation)",
+    "section": "direct",
+    "summary": "A single autoregressive response produces structured reasoning followed by a numeric forecast.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "ReasonTS-Bench tests five synthetic pattern families; released main-experiment code excludes extended analyses.",
+    "code_url": "https://github.com/seunghan96/reasoncast",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "ReasonCast: Towards Explainable Time Series Forecasting with Reasoning",
+    "authors": [
+      "Seunghan Lee",
+      "Jun Seo",
+      "Jaehoon Lee",
+      "Junhyeok Kang",
+      "Sangjun Han",
+      "Sungdong Yoo",
+      "Minjae Kim",
+      "Tae Yoon Lim",
+      "Dongwan Kang",
+      "Hwanil Choi",
+      "Soonyoung Lee",
+      "Wonbin Ahn"
+    ],
+    "year": 2026,
+    "publication_date": "2026-08-03",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2026-08-03",
+    "paper_url": "https://arxiv.org/abs/2608.01875",
+    "version_url": "https://arxiv.org/abs/2608.01875v1",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.01875v1",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/seunghan96/reasoncast",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.01875",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "lee2026arxiv260801875"
+  },
+  {
+    "arxiv_id": "2510.01116",
+    "short_name": "COUNTS",
+    "section": "direct",
+    "summary": "Discrete time-series tokens, SFT, and verifiable-reward RL support CoT across tasks, including contextual numeric forecasting.",
+    "scope": "mixed_with_forecasting",
+    "evidence_boundary": "Mixed-task evidence; distinguish Context Is Key forecast errors from ECG QA and classification accuracy.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "Eliciting Chain-of-Thought Reasoning for Time Series Analysis using Reinforcement Learning",
+    "authors": [
+      "Felix Parker",
+      "Nimeesha Chan",
+      "Chi Zhang",
+      "Kimia Ghobadi"
+    ],
+    "year": 2025,
+    "publication_date": "2025-10-01",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-03-14",
+    "paper_url": "https://arxiv.org/abs/2510.01116",
+    "version_url": "https://arxiv.org/abs/2510.01116v2",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.01116v2",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.01116",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "parker2025arxiv251001116"
+  },
+  {
+    "arxiv_id": "2509.24803",
+    "short_name": "TimeOmni-1 / TSR-Suite",
+    "section": "direct",
+    "summary": "Hierarchical reasoning SFT and task-grounded RL cover four tasks, including event-aware numerical forecasting.",
+    "scope": "mixed_with_forecasting",
+    "evidence_boundary": "Report forecasting MAE with valid-response rate; other tasks use answer accuracy. The release supports inference/evaluation, not the entire training pipeline.",
+    "code_url": "https://github.com/AntonGuan/TimeOmni-1",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "ICLR 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "TimeOmni-1: Incentivizing Complex Reasoning with Time Series in Large Language Models",
+    "authors": [
+      "Tong Guan",
+      "Zijie Meng",
+      "Dianqi Li",
+      "Shiyu Wang",
+      "Chao-Han Huck Yang",
+      "Qingsong Wen",
+      "Zuozhu Liu",
+      "Sabato Marco Siniscalchi",
+      "Ming Jin",
+      "Shirui Pan"
+    ],
+    "year": 2025,
+    "publication_date": "2025-09-29",
+    "publication_type": "preprint",
+    "arxiv_version": 3,
+    "version_date": "2026-02-24",
+    "paper_url": "https://arxiv.org/abs/2509.24803",
+    "version_url": "https://arxiv.org/abs/2509.24803v3",
+    "source_platforms": [
+      "arxiv",
+      "openreview.net",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.24803v3",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "openreview.net",
+          "source_url": "https://openreview.net/forum?id=kOIclg7muL",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/AntonGuan/TimeOmni-1",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.24803",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "guan2025arxiv250924803"
+  },
+  {
+    "arxiv_id": "2605.11262",
+    "short_name": "Latent CoT",
+    "section": "direct",
+    "summary": "Recurrent latent tokens provide extra computation for structured-data prediction, including time-series forecasting.",
+    "scope": "latent_forecasting",
+    "evidence_boundary": "Latent computation does not provide a natural-language rationale; compare depth, recurrent passes, and inference budget.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "Latent Chain-of-Thought Improves Structured-Data Transformers",
+    "authors": [
+      "Carson Dudley",
+      "Samet Oymak"
+    ],
+    "year": 2026,
+    "publication_date": "2026-05-11",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-05-19",
+    "paper_url": "https://arxiv.org/abs/2605.11262",
+    "version_url": "https://arxiv.org/abs/2605.11262v2",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.11262v2",
+          "checked_at": "2026-11-03T02:40:55+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.11262",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "dudley2026arxiv260511262"
+  },
+  {
+    "arxiv_id": "2605.08625",
+    "short_name": "STRIDE",
+    "section": "fusion",
+    "summary": "Distilled reasoning hidden states become a continuous prior for a numerical time-series foundation model.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Teacher annotations use training pseudo-futures; inference uses history. Distinguish training supervision from forecast-time information access.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [
+      "Reasoning-Aware Training for Time Series Forecasting"
+    ],
+    "title": "STRIDE: Reasoning-Aware Training for Time Series Forecasting",
+    "authors": [
+      "Md Atik Ahamed",
+      "Mihir Parmar",
+      "Palash Goyal",
+      "Chun-Liang Li",
+      "Qiang Cheng",
+      "Tomas Pfister",
+      "Jinsung Yoon"
+    ],
+    "year": 2026,
+    "publication_date": "2026-05-09",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-10-16",
+    "paper_url": "https://arxiv.org/abs/2605.08625",
+    "version_url": "https://arxiv.org/abs/2605.08625v2",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.08625v2",
+          "checked_at": "2026-11-03T02:39:50+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.08625",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "ahamed2026arxiv260508625"
+  },
+  {
+    "arxiv_id": "2608.10149",
+    "short_name": "REATS",
+    "section": "fusion",
+    "summary": "CoT SFT and GRPO train sample-specific ensemble weights over numerical forecasters.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Reasoning controls forecast combination; isolate gains from access to the same ensemble of experts.",
+    "code_url": "https://github.com/microsoft/TimeCraft/tree/main/REATS",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "REATS: LLM Reasoning-based Ensemble Learning for Adaptive Time Series Forecasting",
+    "authors": [
+      "Xu Zhang",
+      "Chang Xu",
+      "Hui Sun",
+      "Nan Ma",
+      "Zijian Zhang",
+      "Peng Wang",
+      "Wei Wang",
+      "Li Zhao"
+    ],
+    "year": 2026,
+    "publication_date": "2026-08-10",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-10-19",
+    "paper_url": "https://arxiv.org/abs/2608.10149",
+    "version_url": "https://arxiv.org/abs/2608.10149v2",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.10149v2",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/microsoft/TimeCraft/tree/main/REATS",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.10149",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "zhang2026arxiv260810149"
+  },
+  {
+    "arxiv_id": "2605.30002",
+    "short_name": "KairosAgent",
+    "section": "fusion",
+    "summary": "Tool-assisted semantic descriptions of future morphology condition a numerical foundation-model decoder.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Trajectory supervision and turn-level RL are described; the inspected project did not expose a verified code/model download.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": "https://mldi.group/KairosAgent/",
+    "data_url": null,
+    "data_note": null,
+    "venue": "EMNLP 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
+    "authors": [
+      "Kun Feng",
+      "Ziwei Shan",
+      "Yuchen Fang",
+      "Yiyang Tan",
+      "Sihan Lu",
+      "Shuqi Gu",
+      "Xingyu Lu",
+      "Lintao Ma",
+      "Kan Ren"
+    ],
+    "year": 2026,
+    "publication_date": "2026-05-28",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-09-09",
+    "paper_url": "https://arxiv.org/abs/2605.30002",
+    "version_url": "https://arxiv.org/abs/2605.30002v2",
+    "source_platforms": [
+      "arxiv",
+      "aclanthology.org"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.30002v2",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "aclanthology.org",
+          "source_url": "https://aclanthology.org/2026.emnlp-main.1343/",
+          "checked_at": "2026-11-03T02:39:55+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.30002",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "feng2026arxiv260530002"
+  },
+  {
+    "arxiv_id": "2602.17149",
+    "short_name": "TimeOmni-VL",
+    "section": "fusion",
+    "summary": "Calibrated CoT guides generation through a bidirectional mapping between time series and images.",
+    "scope": "mixed_with_forecasting",
+    "evidence_boundary": "Unified understanding/generation evidence includes forecasting; it does not establish dominance over every specialized forecaster.",
+    "code_url": "https://github.com/AntonGuan/TimeOmni-VL",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "ICML 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "TimeOmni-VL: Unified Models for Time Series Understanding and Generation",
+    "authors": [
+      "Tong Guan",
+      "Sheng Pan",
+      "Johan Barthelemy",
+      "Zhao Li",
+      "Yujun Cai",
+      "Cesare Alippi",
+      "Ming Jin",
+      "Shirui Pan"
+    ],
+    "year": 2026,
+    "publication_date": "2026-02-19",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-06-02",
+    "paper_url": "https://arxiv.org/abs/2602.17149",
+    "version_url": "https://arxiv.org/abs/2602.17149v2",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.mlr.press",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.17149v2",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.mlr.press",
+          "source_url": "https://proceedings.mlr.press/v306/guan26e.html",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/AntonGuan/TimeOmni-VL",
+          "checked_at": "2026-11-03T02:39:53+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.17149",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "guan2026arxiv260217149"
+  },
+  {
+    "arxiv_id": "2608.15291",
+    "short_name": "ReasonCast (demand intervention)",
+    "section": "fusion",
+    "summary": "An agent converts event context into structured semantic fields and selectively corrects a Chronos-2 forecast.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Separate work from the joint-generation ReasonCast. Context must be available at the forecast origin.",
+    "code_url": "https://github.com/ziyuey/ReasonCast",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "ReasonCast: Agentic Demand Forecasting with Selective Semantic Reasoning",
+    "authors": [
+      "Ziyue Yang",
+      "Chaolin Xu",
+      "Yijing Wang",
+      "Tiankai Gu",
+      "Hui Yang",
+      "Yanhong Lin",
+      "Kaiyuan Liu",
+      "Fei Xiao"
+    ],
+    "year": 2026,
+    "publication_date": "2026-08-15",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2026-08-15",
+    "paper_url": "https://arxiv.org/abs/2608.15291",
+    "version_url": "https://arxiv.org/abs/2608.15291v1",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.15291v1",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ziyuey/ReasonCast",
+          "checked_at": "2026-11-03T02:39:52+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.15291",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "yang2026arxiv260815291"
+  },
+  {
+    "arxiv_id": "2409.17515",
+    "short_name": "From News to Forecast",
+    "section": "agentic",
+    "summary": "News selection and error-driven reflection construct contextual training data for an LLM forecaster.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Reflection belongs to the training/validation construction loop; it is not target-observing test-time reflection.",
+    "code_url": "https://github.com/daydreamer-amelia/From_News_to_Forecast",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "NeurIPS 2024",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection",
+    "authors": [
+      "Xinlei Wang",
+      "Maike Feng",
+      "Jing Qiu",
+      "Jinjin Gu",
+      "Junhua Zhao"
+    ],
+    "year": 2024,
+    "publication_date": "2024-09-26",
+    "publication_type": "preprint",
+    "arxiv_version": 3,
+    "version_date": "2024-10-30",
+    "paper_url": "https://arxiv.org/abs/2409.17515",
+    "version_url": "https://arxiv.org/abs/2409.17515v3",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.neurips.cc",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2409.17515v3",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.neurips.cc",
+          "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6aef8bffb372096ee73d98da30119f89-Abstract-Conference.html",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/daydreamer-amelia/From_News_to_Forecast",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.17515",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "wang2024arxiv240917515"
+  },
+  {
+    "arxiv_id": "2511.08947",
+    "short_name": "AlphaCast",
+    "section": "agentic",
+    "summary": "Investigator, Generator, and Reflector agents combine structured human knowledge, contextual evidence, and forecast revision.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Human wisdom is structured support rather than required live intervention; use only origin-available cues and earlier cases.",
+    "code_url": "https://github.com/ustc-time-series/AlphaCast",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "CIKM 2026",
+    "venue_status": "accepted",
+    "doi": null,
+    "aliases": [
+      "CastMind"
+    ],
+    "title": "AlphaCast: A Human Wisdom-LLM Intelligence Co-Reasoning Framework for Time Series Forecasting",
+    "authors": [
+      "Xiaohan Zhang",
+      "Tian Gao",
+      "Mingyue Cheng",
+      "Bokai Pan",
+      "Ze Guo",
+      "Yaguo Liu",
+      "Xiaoyu Tao",
+      "Qi Liu"
+    ],
+    "year": 2025,
+    "publication_date": "2025-11-12",
+    "publication_type": "preprint",
+    "arxiv_version": 6,
+    "version_date": "2026-10-12",
+    "paper_url": "https://arxiv.org/abs/2511.08947",
+    "version_url": "https://arxiv.org/abs/2511.08947v6",
+    "source_platforms": [
+      "arxiv",
+      "cikm2026.diag.uniroma1.it",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2511.08947v6",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "cikm2026.diag.uniroma1.it",
+          "source_url": "https://cikm2026.diag.uniroma1.it/program/",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ustc-time-series/AlphaCast",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.08947",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "zhang2025arxiv251108947"
+  },
+  {
+    "arxiv_id": "2602.03164",
+    "short_name": "MemCast",
+    "section": "agentic",
+    "summary": "Hierarchical experience memory supports analogical forecasting, trajectory selection, and reflective checks.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Test memory content stays fixed, but confidence updates use ground truth after it becomes observable; record delayed-feedback adaptation.",
+    "code_url": "https://github.com/ustc-time-series/MemCast",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "ICML 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning",
+    "authors": [
+      "Xiaoyu Tao",
+      "Mingyue Cheng",
+      "Ze Guo",
+      "Shuo Yu",
+      "Yaguo Liu",
+      "Qi Liu",
+      "Shijin Wang"
+    ],
+    "year": 2026,
+    "publication_date": "2026-02-03",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-06-09",
+    "paper_url": "https://arxiv.org/abs/2602.03164",
+    "version_url": "https://arxiv.org/abs/2602.03164v2",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.mlr.press",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.03164v2",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.mlr.press",
+          "source_url": "https://proceedings.mlr.press/v306/tao26a.html",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ustc-time-series/MemCast",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.03164",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "tao2026arxiv260203164"
+  },
+  {
+    "arxiv_id": "2602.13802",
+    "short_name": "Cast-R1",
+    "section": "agentic",
+    "summary": "Trajectory distillation and memory-based multi-turn RL train tool routing and forecast refinement.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Within-episode analysis/prediction memory differs from cross-instance experience. Some comparisons use different input modalities.",
+    "code_url": "https://github.com/ustc-time-series/Cast-R1",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [
+      "Cast-R1: Learning Tool-Augmented Sequential Decision Policies for Time Series Forecasting"
+    ],
+    "title": "Learning Agentic Time Series Forecasting via Trajectory Distillation and Memory-Based Reinforcement Learning",
+    "authors": [
+      "Xiaoyu Tao",
+      "Mingyue Cheng",
+      "Yaguo Liu",
+      "Xingpeng Gao",
+      "Qingsong Wen",
+      "Shijin Wang",
+      "Enhong chen"
+    ],
+    "year": 2026,
+    "publication_date": "2026-02-14",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-10-16",
+    "paper_url": "https://arxiv.org/abs/2602.13802",
+    "version_url": "https://arxiv.org/abs/2602.13802v2",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2602.13802v2",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ustc-time-series/Cast-R1",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.13802",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "tao2026arxiv260213802"
+  },
+  {
+    "arxiv_id": "2605.14389",
+    "short_name": "Nexus",
+    "section": "agentic",
+    "summary": "A numerical anchor, macro/micro contextual reasoning, and calibrated Bayesian synthesis produce forecasts.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "The current v2 uses statistical anchors; v1 descriptions saying otherwise are stale. Calibration and backtest windows must precede the origin.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [
+      "Nexus: An Agentic Framework for Time Series Forecasting"
+    ],
+    "title": "Nexus : An Agentic Framework for Context-Aware Time Series Forecasting",
+    "authors": [
+      "Sarkar Snigdha Sarathi Das",
+      "Palash Goyal",
+      "Mihir Parmar",
+      "Nanyun Peng",
+      "Vishy Tirumalashetty",
+      "Chun-Liang Li",
+      "Rui Zhang",
+      "Jinsung Yoon",
+      "Tomas Pfister"
+    ],
+    "year": 2026,
+    "publication_date": "2026-05-14",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-10-16",
+    "paper_url": "https://arxiv.org/abs/2605.14389",
+    "version_url": "https://arxiv.org/abs/2605.14389v2",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.14389v2",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.14389",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "das2026arxiv260514389"
+  },
+  {
+    "arxiv_id": "2608.03031",
+    "short_name": "CastFSR",
+    "section": "agentic",
+    "summary": "Fast numerical priors, adaptive slow contextual reasoning, and reflective checks revise forecasts.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Forecast-window context is usable only when already known at the origin; code requires prepared data and predictor checkpoints.",
+    "code_url": "https://github.com/Xiaoyu-Tao/CastFSR",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "CastFSR: A Fast--Slow--Reflect Agentic Reasoning Framework for Context-Aware Time Series Forecasting",
+    "authors": [
+      "Xiaoyu Tao",
+      "Mingyue Cheng",
+      "Bokai Pan",
+      "Chuang Jiang",
+      "Huanjian Zhang",
+      "Tian Gao",
+      "Yaguo Liu",
+      "Qi Liu",
+      "Enhong Chen"
+    ],
+    "year": 2026,
+    "publication_date": "2026-08-04",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-08-11",
+    "paper_url": "https://arxiv.org/abs/2608.03031",
+    "version_url": "https://arxiv.org/abs/2608.03031v2",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2608.03031v2",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/Xiaoyu-Tao/CastFSR",
+          "checked_at": "2026-11-03T02:39:54+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.03031",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "tao2026arxiv260803031"
+  },
+  {
+    "arxiv_id": "2609.24862",
+    "short_name": "TimEvolve",
+    "section": "agentic",
+    "summary": "Delayed outcomes update policies for expert trust, reasoning-path selection, and intervention strength.",
+    "scope": "core_forecasting",
+    "evidence_boundary": "Online delayed-feedback setting: an origin-s forecast becomes update-eligible only after its full horizon s+H has elapsed.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "When Tomorrow Becomes Today: Self-Evolving Policies for Agentic Time-Series Forecasting",
+    "authors": [
+      "Yifan Hu",
+      "Xilin Dai",
+      "Zhiyuan Qu",
+      "Yiding Liu",
+      "Zewei Dong",
+      "Jiang-ming Yang",
+      "Qiang Xu"
+    ],
+    "year": 2026,
+    "publication_date": "2026-09-21",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2026-09-21",
+    "paper_url": "https://arxiv.org/abs/2609.24862",
+    "version_url": "https://arxiv.org/abs/2609.24862v1",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2609.24862v1",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.24862",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "hu2026arxiv260924862"
+  },
+  {
+    "arxiv_id": "2610.04109",
+    "short_name": "SEER",
+    "section": "agentic",
+    "summary": "Error-driven reflection updates retrieval memory and persistent forecasting knowledge for a frozen LLM.",
+    "scope": "mixed_with_forecasting",
+    "evidence_boundary": "Learning uses observable outcomes. The linked repository exposed project materials, not an executable forecasting implementation.",
+    "code_url": null,
+    "code_status": "materials_only",
+    "project_url": "https://github.com/BennyTMT/SEER",
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting",
+    "authors": [
+      "Mingtian Tan",
+      "Palash Goyal",
+      "Mihir Parmar",
+      "Sarkar Snigdha Sarathi Das",
+      "Chun-Liang Li",
+      "Nanyun Peng",
+      "Thomas Hartvigsen",
+      "Jinsung Yoon",
+      "Tomas Pfister"
+    ],
+    "year": 2026,
+    "publication_date": "2026-10-02",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2026-10-02",
+    "paper_url": "https://arxiv.org/abs/2610.04109",
+    "version_url": "https://arxiv.org/abs/2610.04109v1",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.04109v1",
+          "checked_at": "2026-11-03T02:39:56+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04109",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "tan2026arxiv261004109"
+  },
+  {
+    "arxiv_id": "2410.18959",
+    "short_name": "Context is Key (CiK)",
+    "section": "benchmarks",
+    "summary": "Context-essential numerical forecasting tasks test whether models use textual scenarios, constraints, and background.",
+    "scope": "contextual_forecasting_benchmark",
+    "evidence_boundary": "Context sensitivity does not by itself establish correct or faithful intermediate reasoning.",
+    "code_url": "https://github.com/ServiceNow/context-is-key-forecasting",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": "https://huggingface.co/datasets/ServiceNow/context-is-key",
+    "data_note": null,
+    "venue": "ICML 2025",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "Context is Key: A Benchmark for Forecasting with Essential Textual Information",
+    "authors": [
+      "Andrew Robert Williams",
+      "Arjun Ashok",
+      "Étienne Marcotte",
+      "Valentina Zantedeschi",
+      "Jithendaraa Subramanian",
+      "Roland Riachi",
+      "James Requeima",
+      "Alexandre Lacoste",
+      "Irina Rish",
+      "Nicolas Chapados",
+      "Alexandre Drouin"
+    ],
+    "year": 2024,
+    "publication_date": "2024-10-24",
+    "publication_type": "preprint",
+    "arxiv_version": 4,
+    "version_date": "2025-06-05",
+    "paper_url": "https://arxiv.org/abs/2410.18959",
+    "version_url": "https://arxiv.org/abs/2410.18959v4",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.mlr.press",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.18959v4",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.mlr.press",
+          "source_url": "https://proceedings.mlr.press/v267/williams25a.html",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ServiceNow/context-is-key-forecasting",
+          "checked_at": "2026-11-03T02:40:45+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.18959",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "williams2024arxiv241018959"
+  },
+  {
+    "arxiv_id": "2604.05364",
+    "short_name": "TFRBench",
+    "section": "benchmarks",
+    "summary": "Pairs numerical forecasts with reference reasoning about trends, cross-channel relationships, and contextual events.",
+    "scope": "forecast_reasoning_benchmark",
+    "evidence_boundary": "Reference construction uses oracle future-event knowledge and outcome-conditioned filtering; reference alignment is not a pure ex-ante faithfulness test.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": "https://tfrbench.github.io/",
+    "data_url": "https://huggingface.co/datasets/AtikAhamed/TFRBench",
+    "data_note": null,
+    "venue": "ICML 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "TFRBench: A Reasoning Benchmark for Evaluating Forecasting Systems",
+    "authors": [
+      "Md Atik Ahamed",
+      "Mihir Parmar",
+      "Palash Goyal",
+      "Yiwen Song",
+      "Long T. Le",
+      "Qiang Cheng",
+      "Chun-Liang Li",
+      "Hamid Palangi",
+      "Jinsung Yoon",
+      "Tomas Pfister"
+    ],
+    "year": 2026,
+    "publication_date": "2026-04-07",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2026-04-07",
+    "paper_url": "https://arxiv.org/abs/2604.05364",
+    "version_url": "https://arxiv.org/abs/2604.05364v1",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.mlr.press"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2604.05364v1",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.mlr.press",
+          "source_url": "https://proceedings.mlr.press/v306/ahamed26a.html",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.05364",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "ahamed2026arxiv260405364"
+  },
+  {
+    "arxiv_id": "2601.18744",
+    "short_name": "TSRBench",
+    "section": "benchmarks",
+    "summary": "Evaluates perception, reasoning, prediction, and decision-making with multimodal time-series inputs.",
+    "scope": "mixed_reasoning_benchmark",
+    "evidence_boundary": "Keep numeric forecasting separate from aggregate QA scores; paper and repository disagree on domain count.",
+    "code_url": "https://github.com/tianyi-lab/TSRBench",
+    "code_status": "linked_not_executed",
+    "project_url": "https://tsrbench.github.io/",
+    "data_url": "https://huggingface.co/datasets/umd-zhou-lab/TSRBench",
+    "data_note": null,
+    "venue": "ICML 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models",
+    "authors": [
+      "Fangxu Yu",
+      "Xingang Guo",
+      "Lingzhi Yuan",
+      "Haoqiang Kang",
+      "Hongyu Zhao",
+      "Lianhui Qin",
+      "Furong Huang",
+      "Bin Hu",
+      "Tianyi Zhou"
+    ],
+    "year": 2026,
+    "publication_date": "2026-01-26",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-05-07",
+    "paper_url": "https://arxiv.org/abs/2601.18744",
+    "version_url": "https://arxiv.org/abs/2601.18744v2",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.mlr.press",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2601.18744v2",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.mlr.press",
+          "source_url": "https://proceedings.mlr.press/v306/yu26m.html",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/tianyi-lab/TSRBench",
+          "checked_at": "2026-11-03T02:39:58+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.18744",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "yu2026arxiv260118744"
+  },
+  {
+    "arxiv_id": "2605.16358",
+    "short_name": "LEAF",
+    "section": "benchmarks",
+    "summary": "Event-augmented forecasting benchmark audits retrieved context for factual and temporal validity.",
+    "scope": "mixed_forecasting_benchmark",
+    "evidence_boundary": "Includes numeric, stock-trend, and event tasks. Outcome-conditioned context filtering is diagnostic rather than a deployable retrieval policy.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "LEAF: A Living Benchmark for Event-Augmented Forecasting",
+    "authors": [
+      "Mingtian Tan",
+      "Mihir Parmar",
+      "Palash Goyal",
+      "Chun-Liang Li",
+      "Nanyun Peng",
+      "Thomas Hartvigsen",
+      "Jinsung Yoon",
+      "Tomas Pfister"
+    ],
+    "year": 2026,
+    "publication_date": "2026-05-09",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-10-01",
+    "paper_url": "https://arxiv.org/abs/2605.16358",
+    "version_url": "https://arxiv.org/abs/2605.16358v2",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.16358v2",
+          "checked_at": "2026-11-03T02:39:57+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.16358",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "tan2026arxiv260516358"
+  },
+  {
+    "arxiv_id": "2610.05686",
+    "short_name": "COMMON-TSQA / evidence use",
+    "section": "benchmarks",
+    "summary": "Input interventions and rationale audits examine evidence use, factual grounding, and inference reliability.",
+    "scope": "mixed_reliability_benchmark",
+    "evidence_boundary": "Many altered-input tests retain original labels: interpret changes as evidence-use diagnostics, not automatically counterfactual correctness.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "Do Time-Series QA Systems Read the Time Series? Evidence Use and Reasoning Reliability",
+    "authors": [
+      "Zhuomin Chen",
+      "Jingchao Ni",
+      "Xu Zheng",
+      "Janki Bhimani",
+      "Mo Sha",
+      "Wei Cheng",
+      "Dongsheng Luo"
+    ],
+    "year": 2026,
+    "publication_date": "2026-10-05",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2026-10-05",
+    "paper_url": "https://arxiv.org/abs/2610.05686",
+    "version_url": "https://arxiv.org/abs/2610.05686v1",
+    "source_platforms": [
+      "arxiv"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2610.05686v1",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.05686",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "chen2026arxiv261005686"
+  },
+  {
+    "arxiv_id": "2510.03519",
+    "short_name": "TS-Reasoner (representation alignment)",
+    "section": "adjacent",
+    "summary": "Aligns frozen TSFM representations with an LLM for time-series understanding and reasoning.",
+    "scope": "adjacent_understanding",
+    "evidence_boundary": "Principal evidence is reasoning/QA rather than direct numeric forecast improvement; distinct from the operator-based TS-Reasoner.",
+    "code_url": "https://github.com/Yu-Fangxu/TS-Reasoner",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "TMLR 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "TS-Reasoner: Aligning Time Series Foundation Models with LLM Reasoning",
+    "authors": [
+      "Fangxu Yu",
+      "Hongyu Zhao",
+      "Tianyi Zhou"
+    ],
+    "year": 2025,
+    "publication_date": "2025-10-03",
+    "publication_type": "preprint",
+    "arxiv_version": 3,
+    "version_date": "2026-08-19",
+    "paper_url": "https://arxiv.org/abs/2510.03519",
+    "version_url": "https://arxiv.org/abs/2510.03519v3",
+    "source_platforms": [
+      "arxiv",
+      "openreview.net",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.03519v3",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "openreview.net",
+          "source_url": "https://openreview.net/forum?id=d6TD0f2xXq",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/Yu-Fangxu/TS-Reasoner",
+          "checked_at": "2026-11-03T02:39:59+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.03519",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "yu2025arxiv251003519"
+  },
+  {
+    "arxiv_id": "2410.04047",
+    "short_name": "TS-Reasoner (operator agents)",
+    "section": "adjacent",
+    "summary": "Decomposes analysis queries into executable operator workflows with feedback, including constrained forecasting tasks.",
+    "scope": "adjacent_mixed_analysis",
+    "evidence_boundary": "Separate tool access from orchestration gains; Granger-style predictive causality is task-specific. The inspected release contains a small module/annotation package.",
+    "code_url": "https://github.com/wen-ye-xwz/TS-Reasoner",
+    "code_status": "partial_release_not_executed",
+    "project_url": null,
+    "data_url": "https://huggingface.co/datasets/Melady/TSAIA",
+    "data_note": null,
+    "venue": "TMLR 2026",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "TS-Reasoner: Domain-Oriented Time Series Inference Agents for Reasoning and Automated Analysis",
+    "authors": [
+      "Wen Ye",
+      "Wei Yang",
+      "Defu Cao",
+      "Yizhou Zhang",
+      "Lumingyuan Tang",
+      "Jie Cai",
+      "Yan Liu"
+    ],
+    "year": 2024,
+    "publication_date": "2024-10-05",
+    "publication_type": "preprint",
+    "arxiv_version": 6,
+    "version_date": "2026-04-10",
+    "paper_url": "https://arxiv.org/abs/2410.04047",
+    "version_url": "https://arxiv.org/abs/2410.04047v6",
+    "source_platforms": [
+      "arxiv",
+      "openreview.net",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2410.04047v6",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "openreview.net",
+          "source_url": "https://openreview.net/forum?id=yhy7Vigjcf",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/wen-ye-xwz/TS-Reasoner",
+          "checked_at": "2026-11-03T02:40:49+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.04047",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "ye2024arxiv241004047"
+  },
+  {
+    "arxiv_id": "2503.01875",
+    "short_name": "Time-MQA",
+    "section": "adjacent",
+    "summary": "Multi-task TSQA pairs context with forecasting, imputation, anomaly detection, classification, and reasoning questions.",
+    "scope": "adjacent_mixed_analysis",
+    "evidence_boundary": "Numeric forecasting MSE and QA accuracy have different denominators; full reproduction code/evaluation data were still announced as forthcoming.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": "https://huggingface.co/Time-MQA",
+    "data_url": "https://huggingface.co/datasets/Time-MQA/TSQA",
+    "data_note": "Gated; agreement to share Hugging Face information is required.",
+    "venue": "ACL 2025",
+    "venue_status": "published",
+    "doi": "10.18653/v1/2025.acl-long.1437",
+    "aliases": [],
+    "title": "Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement",
+    "authors": [
+      "Yaxuan Kong",
+      "Yiyuan Yang",
+      "Yoontae Hwang",
+      "Wenjie Du",
+      "Stefan Zohren",
+      "Zhangyang Wang",
+      "Ming Jin",
+      "Qingsong Wen"
+    ],
+    "year": 2025,
+    "publication_date": "2025-02-26",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2025-06-28",
+    "paper_url": "https://arxiv.org/abs/2503.01875",
+    "version_url": "https://arxiv.org/abs/2503.01875v2",
+    "source_platforms": [
+      "arxiv",
+      "aclanthology.org"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2503.01875v2",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "aclanthology.org",
+          "source_url": "https://aclanthology.org/2025.acl-long.1437/",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "doi": [
+        {
+          "platform": "aclanthology.org",
+          "source_url": "https://aclanthology.org/2025.acl-long.1437/",
+          "checked_at": "2026-11-03T02:40:52+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.01875",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "kong2025arxiv250301875"
+  },
+  {
+    "arxiv_id": "2412.03104",
+    "short_name": "ChatTS",
+    "section": "adjacent",
+    "summary": "Synthetic time-series alignment and instruction data support multivariate understanding and reasoning.",
+    "scope": "adjacent_understanding",
+    "evidence_boundary": "The main focus is understanding rather than numerical forecasting; QA gains are not numeric forecast evidence.",
+    "code_url": "https://github.com/NetManAIOps/ChatTS",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "PVLDB 2025",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning",
+    "authors": [
+      "Zhe Xie",
+      "Zeyan Li",
+      "Xiao He",
+      "Longlong Xu",
+      "Xidao Wen",
+      "Tieying Zhang",
+      "Jianjun Chen",
+      "Rui Shi",
+      "Dan Pei"
+    ],
+    "year": 2024,
+    "publication_date": "2024-12-04",
+    "publication_type": "preprint",
+    "arxiv_version": 3,
+    "version_date": "2025-04-16",
+    "paper_url": "https://arxiv.org/abs/2412.03104",
+    "version_url": "https://arxiv.org/abs/2412.03104v3",
+    "source_platforms": [
+      "arxiv",
+      "www.vldb.org",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2412.03104v3",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "www.vldb.org",
+          "source_url": "https://www.vldb.org/pvldb/vol18/p2385-xie.pdf",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/NetManAIOps/ChatTS",
+          "checked_at": "2026-11-03T02:40:54+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.03104",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "xie2024arxiv241203104"
+  },
+  {
+    "arxiv_id": "2310.07820",
+    "short_name": "LLMTime",
+    "section": "foundations",
+    "summary": "Serializes numerical histories for zero-shot next-token forecasting; useful direct-forecast baseline.",
+    "scope": "forecasting_foundation",
+    "evidence_boundary": "Ancestry and baseline, without a requirement for an explicit intermediate reasoning trace.",
+    "code_url": "https://github.com/ngruver/llmtime",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "NeurIPS 2023",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "Large Language Models Are Zero-Shot Time Series Forecasters",
+    "authors": [
+      "Nate Gruver",
+      "Marc Finzi",
+      "Shikai Qiu",
+      "Andrew Gordon Wilson"
+    ],
+    "year": 2023,
+    "publication_date": "2023-10-11",
+    "publication_type": "preprint",
+    "arxiv_version": 3,
+    "version_date": "2024-08-12",
+    "paper_url": "https://arxiv.org/abs/2310.07820",
+    "version_url": "https://arxiv.org/abs/2310.07820v3",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.neurips.cc",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.07820v3",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.neurips.cc",
+          "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3eb7ca52e8207697361b2c0fb3926511-Abstract-Conference.html",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/ngruver/llmtime",
+          "checked_at": "2026-11-03T02:40:00+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.07820",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "gruver2023arxiv231007820"
+  },
+  {
+    "arxiv_id": "2310.01728",
+    "short_name": "Time-LLM",
+    "section": "foundations",
+    "summary": "Reprograms numerical patches into a frozen LLM and projects its representations into forecasts.",
+    "scope": "forecasting_foundation",
+    "evidence_boundary": "Useful modality-alignment baseline; LLM usage and prompt context alone do not establish explicit reasoning.",
+    "code_url": "https://github.com/KimMeen/Time-LLM",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": "ICLR 2024",
+    "venue_status": "published",
+    "doi": null,
+    "aliases": [],
+    "title": "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models",
+    "authors": [
+      "Ming Jin",
+      "Shiyu Wang",
+      "Lintao Ma",
+      "Zhixuan Chu",
+      "James Y. Zhang",
+      "Xiaoming Shi",
+      "Pin-Yu Chen",
+      "Yuxuan Liang",
+      "Yuan-Fang Li",
+      "Shirui Pan",
+      "Qingsong Wen"
+    ],
+    "year": 2023,
+    "publication_date": "2023-10-03",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2024-01-29",
+    "paper_url": "https://arxiv.org/abs/2310.01728",
+    "version_url": "https://arxiv.org/abs/2310.01728v2",
+    "source_platforms": [
+      "arxiv",
+      "proceedings.iclr.cc",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2310.01728v2",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "proceedings.iclr.cc",
+          "source_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/680b2a8135b9c71278a09cafb605869e-Abstract-Conference.html",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "page_text"
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/KimMeen/Time-LLM",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.01728",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "jin2023arxiv231001728"
+  },
+  {
+    "arxiv_id": "2605.00015",
+    "short_name": "TimeRFT",
+    "section": "foundations",
+    "summary": "Forecast-quality rewards and difficulty-aware sampling reinforcement-finetune a numerical TSFM.",
+    "scope": "forecasting_rl_baseline",
+    "evidence_boundary": "RL baseline without explicit CoT; manuscript placeholder ACM front matter is not publication evidence.",
+    "code_url": "https://github.com/LSY-Cython/TimeRFT",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "TimeRFT: Stimulating Generalizable Time Series Forecasting for TSFMs via Reinforcement Finetuning",
+    "authors": [
+      "Siyang Li",
+      "Yize Chen",
+      "Zijie Zhu",
+      "Yuxin Pan",
+      "Yan Guo",
+      "Ming Huang",
+      "Hui Xiong"
+    ],
+    "year": 2026,
+    "publication_date": "2026-04-18",
+    "publication_type": "preprint",
+    "arxiv_version": 2,
+    "version_date": "2026-07-31",
+    "paper_url": "https://arxiv.org/abs/2605.00015",
+    "version_url": "https://arxiv.org/abs/2605.00015v2",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2605.00015v2",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/LSY-Cython/TimeRFT",
+          "checked_at": "2026-11-03T02:40:57+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.00015",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "li2026arxiv260500015"
+  },
+  {
+    "arxiv_id": "2510.09776",
+    "short_name": "In-context forecasting limitations",
+    "section": "foundations",
+    "summary": "Analyzes linear self-attention on autoregressive data and the behavior of CoT-style iterative forecasting.",
+    "scope": "theory_boundary",
+    "evidence_boundary": "Theorems concern specified linear-attention/AR assumptions; they do not establish a universal impossibility result for reasoning-based TSF.",
+    "code_url": "https://github.com/MasterZhou1/ICL-Time-Series",
+    "code_status": "linked_not_executed",
+    "project_url": null,
+    "data_url": null,
+    "data_note": null,
+    "venue": null,
+    "venue_status": "unverified",
+    "doi": null,
+    "aliases": [],
+    "title": "Why Do Transformers Fail to Forecast Time Series In-Context?",
+    "authors": [
+      "Yufa Zhou",
+      "Yixiao Wang",
+      "Surbhi Goel",
+      "Anru R. Zhang"
+    ],
+    "year": 2025,
+    "publication_date": "2025-10-10",
+    "publication_type": "preprint",
+    "arxiv_version": 1,
+    "version_date": "2025-10-10",
+    "paper_url": "https://arxiv.org/abs/2510.09776",
+    "version_url": "https://arxiv.org/abs/2510.09776v1",
+    "source_platforms": [
+      "arxiv",
+      "github"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2510.09776v1",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "code_url": [
+        {
+          "platform": "github",
+          "source_url": "https://github.com/MasterZhou1/ICL-Time-Series",
+          "checked_at": "2026-11-03T02:40:01+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "venue": "No accepted venue verified in the inspected primary sources.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.09776",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "zhou2025arxiv251009776"
+  },
+  {
+    "arxiv_id": "2509.11575",
+    "short_name": "Reasoning and agentic TS survey",
+    "section": "surveys",
+    "summary": "Organizes reasoning topologies, tools, verification, retrieval, and agentic time-series systems.",
+    "scope": "survey",
+    "evidence_boundary": "Broader than forecasting; use individual primary papers to verify task scope and release claims.",
+    "code_url": null,
+    "code_status": "not_located",
+    "project_url": "https://github.com/blacksnail789521/Time-Series-Reasoning-Survey",
+    "data_url": null,
+    "data_note": null,
+    "venue": "TMLR 2026",
+    "venue_status": "author_reported",
+    "doi": null,
+    "aliases": [],
+    "title": "A Survey of Reasoning and Agentic Systems in Time Series with Large Language Models",
+    "authors": [
+      "Ching Chang",
+      "Yidan Shi",
+      "Defu Cao",
+      "Wei Yang",
+      "Jeehyun Hwang",
+      "Haixin Wang",
+      "Jiacheng Pang",
+      "Wei Wang",
+      "Yan Liu",
+      "Wen-Chih Peng",
+      "Tien-Fu Chen"
+    ],
+    "year": 2025,
+    "publication_date": "2025-09-15",
+    "publication_type": "preprint",
+    "arxiv_version": 3,
+    "version_date": "2026-06-10",
+    "paper_url": "https://arxiv.org/abs/2509.11575",
+    "version_url": "https://arxiv.org/abs/2509.11575v3",
+    "source_platforms": [
+      "arxiv",
+      "arxiv.org"
+    ],
+    "citation_count": null,
+    "citation_counts": [],
+    "field_sources": {
+      "title": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "authors": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "year": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_date": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "publication_type": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "arxiv_id": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "pdf_url": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "full_text_status": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "source_metadata"
+        }
+      ],
+      "summary": [
+        {
+          "platform": "arxiv",
+          "source_url": "https://arxiv.org/abs/2509.11575v3",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "inference",
+          "note": "Curator paraphrase of the paper; the linked arXiv version fixes the paper identity."
+        }
+      ],
+      "venue": [
+        {
+          "platform": "arxiv.org",
+          "source_url": "https://arxiv.org/abs/2509.11575",
+          "checked_at": "2026-11-03T02:40:04+00:00",
+          "evidence_type": "page_text"
+        }
+      ]
+    },
+    "missing_fields": {
+      "citation_count": "Not collected; citation counts are not used to rank this curated list.",
+      "code_url": "No executable author-linked implementation verified in the inspected sources; see code_status/project_url.",
+      "doi": "Publisher DOI not collected or not verified; arXiv ID is the stable identifier."
+    },
+    "full_text_status": "open_pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.11575",
+    "download_status": "not_requested",
+    "pdf_verification_status": "unverified",
+    "paper_identity_status": "unverified",
+    "fetched_at": "2026-11-03",
+    "bibtex_key": "chang2025arxiv250911575"
+  }
+]
